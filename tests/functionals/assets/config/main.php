@@ -1,6 +1,6 @@
 <?php
 
-use bupy7\activerecord\history\tests\Env;
+use terehru\activerecord\history\tests\Env;
 
 $env = Env::getInstance();
 
@@ -14,7 +14,7 @@ return [
     'bootstrap' => ['arhistory'],
     'modules' => [
         'arhistory' => [
-            'class' => 'bupy7\activerecord\history\Module',
+            'class' => 'terehru\activerecord\history\Module',
         ],
     ],
     'components' => [
@@ -36,7 +36,7 @@ return [
             'charset' => 'utf8',
         ],
         'user' => [
-            'identityClass' => 'bupy7\activerecord\history\tests\functionals\assets\models\User',
+            'identityClass' => 'terehru\activerecord\history\tests\functionals\assets\models\User',
         ],
     ],
 ];

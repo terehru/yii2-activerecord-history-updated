@@ -1,6 +1,6 @@
 <?php
 
-namespace bupy7\activerecord\history\interfaces;
+namespace terehru\activerecord\history\interfaces;
 
 use Yii;
 

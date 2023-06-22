@@ -1,6 +1,6 @@
 <?php
 
-namespace bupy7\activerecord\history\tests;
+namespace terehru\activerecord\history\tests;
 
 use InvalidArgumentException;
 

@@ -1,5 +1,5 @@
 {
-    "name": "bupy7/yii2-activerecord-history",
+    "name": "terehru/yii2-activerecord-history-updated",
     "description": "This extension adds storage history of changes to the ActiveRecord model.",
     "type": "yii2-extension",
     "keywords": [
@@ -36,12 +36,12 @@
     },
     "autoload": {
         "psr-4": {
-            "bupy7\\activerecord\\history\\": "src"
+            "terehru\\activerecord\\history\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "bupy7\\activerecord\\history\\tests\\": "tests"
+            "terehru\\activerecord\\history\\tests\\": "tests"
         }
     },
     "scripts": {

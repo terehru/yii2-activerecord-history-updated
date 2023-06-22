@@ -1,11 +1,11 @@
 <?php
 
-namespace bupy7\activerecord\history\storages;
+namespace terehru\activerecord\history\storages;
 
 use Yii;
-use bupy7\activerecord\history\base\BaseObject;
-use bupy7\activerecord\history\entities\History;
-use bupy7\activerecord\history\interfaces\Storage as StorageInterface;
+use terehru\activerecord\history\base\BaseObject;
+use terehru\activerecord\history\entities\History;
+use terehru\activerecord\history\interfaces\Storage as StorageInterface;
 
 /**
  * Base class of storage via which must be extends all storage classes.

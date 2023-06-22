@@ -1,6 +1,6 @@
 <?php
 
-namespace bupy7\activerecord\history\base;
+namespace terehru\activerecord\history\base;
 
 /**
  * The shim file has been created because `object` has become a reserved word which can not be

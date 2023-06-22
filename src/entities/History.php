@@ -1,9 +1,9 @@
 <?php
 
-namespace bupy7\activerecord\history\entities;
+namespace terehru\activerecord\history\entities;
 
 use Yii;
-use bupy7\activerecord\history\base\BaseObject;
+use terehru\activerecord\history\base\BaseObject;
 
 /**
  * Entity of collection history changes active record model.

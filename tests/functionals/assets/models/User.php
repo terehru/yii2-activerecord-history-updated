@@ -1,9 +1,9 @@
 <?php
 
-namespace bupy7\activerecord\history\tests\functionals\assets\models;
+namespace terehru\activerecord\history\tests\functionals\assets\models;
 
 use BadMethodCallException;
-use bupy7\activerecord\history\base\BaseObject;
+use terehru\activerecord\history\base\BaseObject;
 use yii\web\IdentityInterface;
 
 class User extends BaseObject implements IdentityInterface

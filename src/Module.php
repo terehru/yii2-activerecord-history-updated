@@ -1,6 +1,6 @@
 <?php
 
-namespace bupy7\activerecord\history;
+namespace terehru\activerecord\history;
 
 use Yii;
 use yii\db\Connection;
@@ -21,7 +21,7 @@ class Module extends \yii\base\Module
     /**
      * @var string Class name of storage for saving history of active record model.
      */
-    public $storage = 'bupy7\activerecord\history\storages\Database';
+    public $storage = 'terehru\activerecord\history\storages\Database';
     /**
      * @var Connection|array|string the DB connection object or the application component ID of the DB connection.
      */

@@ -1,12 +1,12 @@
 <?php
 
-namespace bupy7\activerecord\history\behaviors;
+namespace terehru\activerecord\history\behaviors;
 
 use yii\base\Behavior;
 use yii\db\BaseActiveRecord;
 use yii\base\Event;
-use bupy7\activerecord\history\Module;
-use bupy7\activerecord\history\entities\History as HistoryEntity;
+use terehru\activerecord\history\Module;
+use terehru\activerecord\history\entities\History as HistoryEntity;
 use yii\base\NotSupportedException;
 
 /**
@@ -107,7 +107,7 @@ class History extends Behavior
         $createdBy = $this->getCreatedBy();
         $createdAt = time();
 
-        /** @var \bupy7\activerecord\history\storages\Base $storage */
+        /** @var \terehru\activerecord\history\storages\Base $storage */
         $storage = new $this->module->storage;
         
         switch ($event->name) {
