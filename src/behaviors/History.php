@@ -194,7 +194,8 @@ class History extends Behavior
      */
     protected function getCreatedBy()
     {
-        return $this->module->user->id;
+		return 0;
+        //return $this->module->user->id;
     }
     
     /**

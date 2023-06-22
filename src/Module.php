@@ -39,6 +39,7 @@ class Module extends \yii\base\Module
     {
         parent::init();
         $this->db = Instance::ensure($this->db, Connection::className());
-        $this->user = Instance::ensure($this->user, User::className());
+		// Disabled
+        //$this->user = Instance::ensure($this->user, User::className());
     }
 }
